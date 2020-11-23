@@ -1,4 +1,8 @@
 import logo from './logo.svg';
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/now-ui-kit.min.css";
+
+import NavMenu from './components/NavMenu';
 import './App.css';
 
 function App() {
@@ -18,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NavMenu />
     </div>
   );
 }
